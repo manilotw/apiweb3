@@ -1,3 +1,2 @@
 requests==2.31.0
-urllib
 python-dotenv==0.21.1

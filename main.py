@@ -4,6 +4,7 @@ from dotenv import load_dotenv
 import os
 import argparse
 
+
 def shorten_link(token, url):
     params = {
         'access_token': token,
