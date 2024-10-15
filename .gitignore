@@ -1,2 +1,61 @@
-.env
+# Python
 __pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+*.log
+*.sqlite3
+*.db
+
+# Virtualenv
+env/
+venv/
+ENV/
+.venv/
+pip-log.txt
+
+# IDE и редакторы
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Django
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+local_settings.py
+db.sqlite3
+
+# Сборки и пакеты
+build/
+dist/
+*.egg-info/
+.eggs/
+*.manifest
+*.spec
+
+# Миграции
+migrations/
+*.pyc
+*.pyo
+
+# Файлы конфигурации ОС
+.DS_Store
+Thumbs.db
+
+# Тесты
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+
+# Файлы с чувствительными данными
+.env
